@@ -46,5 +46,9 @@ print("The numbers greater than 50 are " + str(greaterThanFifty))
 
 print("The number of elements that are less then 50 is " + str(len(lessThanFifty)))
 print("The number of elements that are greater than 50 is " + str(len(greaterThanFifty)))
+print("\n-----In One Line-----")
+
+#one line of code
+#not sure how to do this honestly
 
 
