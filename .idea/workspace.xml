@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c8f8356-3acb-4bad-a64d-8973d1cf9fc4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/CSC-352-Fall2021.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CSC-352-Fall2021.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassNotes/dayTwoNotes.py" beforeDir="false" afterPath="$PROJECT_DIR$/ClassNotes/dayTwoNotes.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +21,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1xBWUAowYGDab1X9bynWPhzoc06" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -31,7 +40,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Python.fiboRecursive">
+  <component name="RunManager" selected="Python.dayThreeNotes">
     <configuration name="assignmentOne (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CSC-352-Fall2021" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -53,7 +62,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="assignmentOne" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="dayThreeNotes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CSC-352-Fall2021" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -61,11 +70,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ClassNotes" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/assignmentOne.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ClassNotes/dayThreeNotes.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -139,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.dayThreeNotes" />
         <item itemvalue="Python.fiboRecursive" />
         <item itemvalue="Python.fibonacci" />
         <item itemvalue="Python.dayTwoNotes" />
         <item itemvalue="Python.assignmentOne (1)" />
-        <item itemvalue="Python.assignmentOne" />
       </list>
     </recent_temporary>
   </component>
@@ -157,39 +166,5 @@
       <updated>1629828975256</updated>
     </task>
     <servers />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="1899" height="348" key="GridCell.Tab.0.bottom" timestamp="1629991172063">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.0.bottom/1920.0.1366.728/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1629991172063" />
-    <state width="1899" height="348" key="GridCell.Tab.0.center" timestamp="1629991172063">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.0.center/1920.0.1366.728/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1629991172063" />
-    <state width="1899" height="348" key="GridCell.Tab.0.left" timestamp="1629991172062">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.0.left/1920.0.1366.728/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1629991172062" />
-    <state width="1899" height="348" key="GridCell.Tab.0.right" timestamp="1629991172063">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.0.right/1920.0.1366.728/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1629991172063" />
-    <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1629991172063">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.bottom/1920.0.1366.728/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1629991172063" />
-    <state width="1899" height="348" key="GridCell.Tab.1.center" timestamp="1629991172063">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.center/1920.0.1366.728/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1629991172063" />
-    <state width="1899" height="348" key="GridCell.Tab.1.left" timestamp="1629991172063">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.left/1920.0.1366.728/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1629991172063" />
-    <state width="1899" height="348" key="GridCell.Tab.1.right" timestamp="1629991172063">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.right/1920.0.1366.728/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1629991172063" />
   </component>
 </project>
