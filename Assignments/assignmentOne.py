@@ -51,4 +51,7 @@ print("\n-----In One Line-----")
 #one line of code
 #not sure how to do this honestly
 
+print({i for i in a if i < 34})
+print(sorted({i for i in a if i > 41}))
+
 
