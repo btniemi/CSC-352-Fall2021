@@ -65,11 +65,11 @@ print("Boolean of 'a string' is: ", bool(value))
 
 # zip(*iterables)
 #https://www.programiz.com/python-programming/methods/built-in/zip
-print('\nthis is zip()')
-numbers = [1, 2, 3]
-str_numbers = ['one', 'two', 'three']
-res1 = zip(numbers, str_numbers)
-print(list(res1))
+# print('\nthis is zip()')
+# numbers = [1, 2, 3]
+# str_numbers = ['one', 'two', 'three']
+# res = zip(numbers, str_numbers)
+# print(list(res))
 # print(list(res1)) #how to print a zip as a list
 
 # numbers = [1, 2, 3]
