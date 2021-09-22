@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9c8f8356-3acb-4bad-a64d-8973d1cf9fc4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassNotes/methods3.py" beforeDir="false" afterPath="$PROJECT_DIR$/ClassNotes/methods3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +39,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Python.methods3">
+  <component name="RunManager" selected="Python.sportsDict">
     <configuration name="methods1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CSC-352-Fall2021" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -102,7 +103,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="selfHelpNotes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="sportsDict" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CSC-352-Fall2021" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -110,11 +111,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ClassNotes" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignments" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ClassNotes/selfHelpNotes.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignments/sportsDict.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -146,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sportsDict" />
         <item itemvalue="Python.methods3" />
         <item itemvalue="Python.methods2" />
         <item itemvalue="Python.zipHelp" />
         <item itemvalue="Python.methods1" />
-        <item itemvalue="Python.selfHelpNotes" />
       </list>
     </recent_temporary>
   </component>

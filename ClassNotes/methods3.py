@@ -106,6 +106,5 @@ numdict = dict([(1, 'one'), (2, 'two'), (3, 'three')])
 print("dict1= ", numdict)
 # missed stuff here for stuff in notes but know this stuff already
 
-
 numdict = dict({'I': 'one', 'II': 'two', 'III': 'three'})  # passing mapping object
 print(numdict)
