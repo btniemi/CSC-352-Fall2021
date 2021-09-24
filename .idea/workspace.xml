@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9c8f8356-3acb-4bad-a64d-8973d1cf9fc4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassNotes/methods3.py" beforeDir="false" afterPath="$PROJECT_DIR$/ClassNotes/methods3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/North_America_Sports_Teams.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/North_America_Sports_Teams.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/sportsDict.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/sportsDict.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +41,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager" selected="Python.sportsDict">
-    <configuration name="methods1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="dict1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CSC-352-Fall2021" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -52,7 +53,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ClassNotes/methods1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ClassNotes/dict1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -148,10 +149,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.sportsDict" />
+        <item itemvalue="Python.dict1" />
         <item itemvalue="Python.methods3" />
         <item itemvalue="Python.methods2" />
         <item itemvalue="Python.zipHelp" />
-        <item itemvalue="Python.methods1" />
       </list>
     </recent_temporary>
   </component>

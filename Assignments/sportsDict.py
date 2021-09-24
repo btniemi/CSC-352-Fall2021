@@ -1,6 +1,5 @@
 import csv
 
-my_dict = {}
 # open the file in read mode
 with open('North_America_Sports_Teams.csv', mode='r') as infile:
     # open a reader to the csv, the delimiter is a single space
@@ -33,7 +32,7 @@ ans2 = check_Key(my_dict, '200')
 
 # zip(*iterables)
 print('------zip()------')
-# cant do zip need 2 list or iterables to tupel together
+# cant do zip need 2 list or iterables to tuple together
 # bin()
 print('------bin()------')
 # cant do this either with list as it needs an integer to make it binary
@@ -76,8 +75,30 @@ print('------complex()------')
 print('------delattr()------')
 # will only work with objects
 
-
-
 #create seperate dict for state
+# list_values_to_check = {'Anaheim', 'Arlington', 'Atlanta', 'Austin', 'Baltimore', 'Boston', 'Buffalo', 'Calgary', 'Carson', 'Charlotte', 'Chester', 'Chicago', 'Cincinnati', 'Cheveland', 'Columbus', 'Commerce City', 'Dallas', 'Denver', 'Detroit', 'East Rutherford', 'Edmonton', 'Fort Lauderdale', 'Foxborough', 'Frisco', 'Green Bay', 'Hamilton', 'Harrison', 'Houston', 'Indianapolis', 'Inglewood', 'Jacksonville', 'Kansas City', 'Landover', 'Las Vegas', 'Los Angeles', 'Memphis', 'Miami', 'Milwaukee', 'Minneapolis', 'Montreal', 'Nashville', 'New Orleans', 'New York', 'Newark', 'Oakland', 'Oklahoma City', 'Orlando', 'Ottawa', 'Philadelphia', 'Phoenix', 'Pittsburgh', 'Portland', 'Raleigh', 'Regina', 'Sacramento', 'Salt Lake City', 'San Antonio', 'San Diego', 'San Francisco', 'San Jose', 'Sandy', 'Santa Clara', 'Seattle', 'St. Louis', 'St. Paul', 'St. Petersburg', 'Sunrise', 'Tampa', 'Toronto', 'Uniondale', 'Vancouver', 'Washington', 'Winnipeg'}
+
+# search for particular value
+value = input("Name a city (case sensitive): ")
+# get the list that contains the given value
+list_of_keys = [key for key, list_of_values in my_dict.items() if value in list_of_values]
+if list_of_keys:
+    print('value', value, 'exists in the dictionary at these keys', list_of_keys)
+    # you can print the values if you print(my_dict['key_desired']) see if you can get that to work
+    # you could loop this to append to a new dictionary as well most likely
+    # also can loop this till done searching
+else:
+    print("City requested does not exist in the dictionary")
 
 #create seperate dict for city
+# search for particular value
+value = input("Name a State (case sensitive): ")
+# get the list that contains the given value
+list_of_keys = [key for key, list_of_values in my_dict.items() if value in list_of_values]
+if list_of_keys:
+    print('value', value, 'exists in the dictionary at these keys', list_of_keys)
+    # you can print the values if you print(my_dict['key_desired']) see if you can get that to work
+    # you could loop this to append to a new dictionary as well most likely
+    # also can loop this till done searching
+else:
+    print("State requested does not exist in the dictionary")
