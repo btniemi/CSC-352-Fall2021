@@ -34,13 +34,18 @@
 # print(dict1)
 
 #weighted average
-assAvg = 0.68
-tstAvg = 0.66
-labAvg = 0.45
-assW = 0.10
-tstW = 0.70
-labW = 0.20
+# assAvg = 0.68
+# tstAvg = 0.66
+# labAvg = 0.45
+# assW = 0.10
+# tstW = 0.70
+# labW = 0.20
+#
+# weightAvg = (assAvg*assW + tstAvg*tstW + labAvg*labW) / (assW+tstW+labW)
+#
+# print(weightAvg)
 
-weightAvg = (assAvg*assW + tstAvg*tstW + labAvg*labW) / (assW+tstW+labW)
-
-print(weightAvg)
+a_list = [1, 2, 3]
+integers_to_append = int(4)
+a_list. append(integers_to_append)
+print(a_list)
