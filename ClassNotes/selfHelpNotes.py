@@ -14,3 +14,7 @@ print(x)
 # The zip object yields n-length tuples, where n is the number of iterables passed as positional arguments to zip().
 # The i-th element in every tuple comes from the i-th iterable argument to zip().
 # This continues until the shortest argument is exhausted.
+
+# "%.2f" used to format a number or float with specific decimals
+f = 1.2345657
+print("%.2f" % f)
