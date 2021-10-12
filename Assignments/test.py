@@ -45,7 +45,12 @@
 #
 # print(weightAvg)
 
-a_list = [1, 2, 3]
-integers_to_append = int(4)
-a_list. append(integers_to_append)
-print(a_list)
+# a_list = [1, 2, 3]
+# integers_to_append = int(4)
+# a_list. append(integers_to_append)
+# print(a_list)
+
+#string concatination
+x = 'Hello'
+print(x, "world")
+input(x, "World is what in programing? ") # comma does not work here because input is expecting argumenst not string concatination do with +

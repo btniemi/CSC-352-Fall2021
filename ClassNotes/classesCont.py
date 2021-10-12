@@ -25,13 +25,22 @@ my_rockets = [Rocket() for x in range(0, 5)]
 for rocket in my_rockets:
     print(rocket)
 
-my_rockets[0].move_up(1)
-my_rockets[1].move_up(9)
-my_rockets[2].move_up(6)
-my_rockets[3].move_up(20)
-my_rockets[4].move_up(2)
+countRockets = 1
+for i in range(5):
 
+    x = int(input("How far does rocket" + str(countRockets) + " move up? "))
+    my_rockets[i].move_up(x)
+    countRockets = countRockets + 1
+
+# my_rockets[0].move_up(1)
+# my_rockets[1].move_up(9)
+# my_rockets[2].move_up(6)
+# my_rockets[3].move_up(20)
+# my_rockets[4].move_up(2)
+
+count = 1
 for rocket in my_rockets:
-    print("Rocket altitude:", rocket.y)
+    print("Rocket" + str(count) + " altitude:", rocket.y)
+    count += 1
 
 # use this for assignment
