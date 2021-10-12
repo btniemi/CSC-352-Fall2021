@@ -26,7 +26,7 @@ for rocket in my_rockets:
     print(rocket)
 
 countRockets = 1
-for i in range(5):
+for i in range(0, 5):
 
     x = int(input("How far does rocket" + str(countRockets) + " move up? "))
     my_rockets[i].move_up(x)

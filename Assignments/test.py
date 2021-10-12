@@ -50,7 +50,28 @@
 # a_list. append(integers_to_append)
 # print(a_list)
 
-#string concatination
-x = 'Hello'
-print(x, "world")
-input(x, "World is what in programing? ") # comma does not work here because input is expecting argumenst not string concatination do with +
+# #string concatination
+# x = 'Hello'
+# print(x, "world")
+# input(x, "World is what in programing? ") # comma does not work here because input is expecting argumenst not string concatination do with +
+
+# Function to convert number into string
+# Switcher is dictionary data type here
+def numbers_to_strings(argument):
+    switcher = {
+        0: "zero",
+        1: "one",
+        2: "two",
+    }
+
+    # get() method of dictionary data type returns
+    # value of passed argument if it is present
+    # in dictionary otherwise second argument will
+    # be assigned as default value of passed argument
+    return switcher.get(argument, "nothing")
+
+
+# Driver program
+if __name__ == "__main__":
+    argument = 0
+    print(numbers_to_strings(argument))
