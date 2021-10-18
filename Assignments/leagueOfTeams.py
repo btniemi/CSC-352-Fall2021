@@ -2,6 +2,7 @@ class League():
     # leagues have teams which will have all the attributes of this league
 
     def __init__(self):
+        # add self.name = ''
         self.win = 0
         self.lose = 0
         self.tie = 0
@@ -23,10 +24,11 @@ class League():
         elif self.lose == 0 and self.win == 0:
             self.percentage = 'not_enough_data_to_compute'
         else:
-            total = self.win + self.lose
+            total = self.win + self.lose + self.tie
             self.percentage = self.win / total * 100
 
 
+# create a name for each team in this range of 8 teams can do that in class
 teams = [League() for x in range(0, 8)]
 
 # loop for adding scores in
@@ -89,7 +91,6 @@ while True:
         teams[7].tie_score()
 
 # calc win percentage
-
 teams[0].win_lose_percentage()
 teams[1].win_lose_percentage()
 teams[2].win_lose_percentage()
@@ -99,6 +100,8 @@ teams[5].win_lose_percentage()
 teams[6].win_lose_percentage()
 teams[7].win_lose_percentage()
 
+
+# you can then do the team name thing as count instead of count
 count = 1
 for team in teams:
     print("Team", count, ": Wins", team.win, "Loses", team.lose, "Ties", team.tie, "Win/Lose Percentage",
