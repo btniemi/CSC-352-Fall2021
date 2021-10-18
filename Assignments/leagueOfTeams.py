@@ -37,6 +37,8 @@ while True:
         break
     gameResult = input("Did they win, lose, or tie? ")
 
+    # not sure why i cant give this multiple value to check upon just kept giving it to team one wins every time ie if
+    # pickTeams == '1' or 'one' or 'ONE' and gameResult == 'win' but if you do that for all cases it just does not work
     if pickTeam == '1' and gameResult == 'win':
         teams[0].win_score()
     elif pickTeam == '1' and gameResult == 'lose':
